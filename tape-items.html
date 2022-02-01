@@ -203,7 +203,7 @@
                   <div class="col-md-4">
                     <div class="widget clearfix">
                       <img
-                        src="images/cropped-logo.jpg"
+                        src="images/logo-transparent.png"
                         alt="Image"
                         class="footer-logo"
                       />
@@ -531,6 +531,9 @@
         object-fit: cover;
         padding: 15px;
       }
+      .footer-logo {
+        width: 200px;
+      }
       @media (min-width: 992px) {
         .sticky-header-shrink #header-wrap #logo img {
           height: auto !important;
@@ -555,7 +558,8 @@
       equalWidget();
     }
 
-    $(document).ready(function () {
+    resize()
+$(document).ready(function () {
       resize();
     });
 
